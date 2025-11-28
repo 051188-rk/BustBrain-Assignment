@@ -1,0 +1,44 @@
+.question-editor {
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.question-header:hover {
+    background: #f8f9fa;
+}
+
+.question-header h4 {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+}
+
+.toggle-icon {
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.question-body {
+    padding: 20px;
+}
+
+.question-body .form-group {
+    margin-bottom: 15px;
+}
+
+.question-body .form-group:last-child {
+    margin-bottom: 0;
+}

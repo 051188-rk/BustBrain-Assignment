@@ -1,0 +1,52 @@
+.form-builder-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.form-builder-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.step-indicator {
+    background: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.builder-step {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.builder-step h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.builder-step h3 {
+    margin: 30px 0 15px;
+    color: #333;
+}
+
+.form-metadata {
+    margin-bottom: 30px;
+}
+
+.form-metadata input,
+.form-metadata textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-metadata textarea {
+    min-height: 100px;
+    resize: vertical;
+}

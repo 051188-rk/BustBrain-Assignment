@@ -1,0 +1,92 @@
+.response-preview {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.response-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.response-header:hover {
+    background: #f8f9fa;
+}
+
+.response-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.response-id {
+    font-family: monospace;
+    background: #e7f3ff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+.response-date {
+    color: #666;
+    font-size: 14px;
+}
+
+.deleted-badge {
+    background: #dc3545;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+.toggle-icon {
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+.response-body {
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.answer-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.answer-row:last-of-type {
+    border-bottom: none;
+}
+
+.answer-row strong {
+    min-width: 150px;
+    color: #333;
+}
+
+.answer-row span {
+    color: #666;
+    flex: 1;
+}
+
+.response-metadata {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.response-metadata small {
+    color: #999;
+    font-size: 12px;
+}
